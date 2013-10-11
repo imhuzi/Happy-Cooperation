@@ -1,0 +1,23 @@
+/* 
+    Document   : validate
+    Created on : 2012-1-12, 14:41:32
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/*表单验证提示样式*/
+.submit .loading{visibility:visible;background: url("/images/loading6.gif") no-repeat;  padding-left: 30px;}
+/* Validate Info */
+.validate-option { display: none; color: #808080 }
+.validate-error { display: none; color: #fe2617 }
+.extra-tips .validate-error,
+.extra-tips .validate-option { padding-left: 10px; background: url(images/tips_arrow.gif) no-repeat}
+.extra-tips .validate-error { background-position: left -51px;_background-position: left -51px; }
+.extra-tips .validate-option { background-position: left 4px;_background-position: left 3px; }
+.extra-tips .validate-success{background: url("images/ok.jpg") no-repeat scroll 0 0 transparent; display: inline-block; height: 22px; width: 33px;}
+.item.has-process{background: url("/images/loading6.gif") 220px 10px no-repeat;}

@@ -33,4 +33,10 @@ public class Global {
     public static final int DEFAULT_INACTIVEINTERVAL = 1800;
     //MaxInactiveInterval (60*60*24*7) 最大值为7天
     public static final int MAXINACTIVEINTERVAL = 604800;
+
+    public static final String ADMIN_URI_PREFIX = "/admin/";
+
+    public static String SITE_THEME_PATH = "/site";
+    public static String SITE_THEME_NAME = "";
+    public static String ADMIN_THEME_PATH = "/admin";
 }
