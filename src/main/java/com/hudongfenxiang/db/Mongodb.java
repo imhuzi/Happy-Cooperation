@@ -79,10 +79,10 @@ public class Mongodb {
     public static void main(String[] args) {
         while (true) {
             try {
-//                DB db = Mongodb.getDb("test");
+                DB db = Mongodb.getDb("test");
 //                db.dropDatabase();
-//                DBCollection collection = Mongodb.getCollection(db, "collection1");
-                DBCollection collection = Mongodb.getCollection("test", "collection1");
+                DBCollection collection = Mongodb.getCollection(db, "collection1");
+//                DBCollection collection = Mongodb.getCollection("test", "collection1");
                 
                 // 新增数据，方法1：
                 DBObject dbo = new BasicDBObject();
