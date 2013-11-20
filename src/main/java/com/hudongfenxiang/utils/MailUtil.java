@@ -98,7 +98,7 @@ public class MailUtil {
 //        mail.setMailServer("smtp.163.com");
 //        mail.setFrom("wanghuiwl320@l63.com");
 //        mail.setTo("949454756@qq.com");
-//        mail.setPassword("olives@huisdf&320");
+//        mail.setPassword(".....");
 //        mail.setSender("测试人员");
 //        mail.setSubject("测试test");
 //        mail.setContent("测试TEST。haha!");
